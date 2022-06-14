@@ -34,3 +34,5 @@ Route::get('/top-rated-games', ['App\Http\Controllers\VideogameController', 'top
 Route::get('/search', ['App\Http\Controllers\MovieController', 'search']);
 
 Route::get('/movies/shawshank-redemption', ['App\Http\Controllers\MovieController', 'shawshank']);
+
+Route::get('/movies', ['App\Http\Controllers\MovieController', 'index']);
